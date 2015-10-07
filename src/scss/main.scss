@@ -1,0 +1,34 @@
+@import "layer";
+
+
+
+.PanAlterWrap{
+  position: relative;
+  img{
+    z-index: 0
+  }
+  .closePanOpen{
+    position: absolute;
+    right: 166px;
+    top: 10px;
+    width: 60px;
+    height: 63px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: #fff;
+    filter:Alpha(opacity=0);
+    background-color: rgba(0,0,0,0.01);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+  }
+  a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 80px;
+    z-index: 100;
+    background-color: #fff;
+    filter:Alpha(opacity=0);
+    background-color: rgba(0,0,0,0.01);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+  }
+}
