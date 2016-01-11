@@ -1,7 +1,7 @@
 JSMi
 ---
 
-![Famous brand](logo.png)
+![jsmi](logo.png)
 
 ### 信息框
 ```
