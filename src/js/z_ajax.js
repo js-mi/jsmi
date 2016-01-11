@@ -32,7 +32,7 @@
                 html:  'text/html',
                 text:  'text/plain'
             },
-            // 应该被允许缓存GET响应
+            // 应该被允许缓存GET响应 
             cache: true
         },
         param:function(obj,traditional,scope){

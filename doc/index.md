@@ -196,7 +196,7 @@ $.trim("  hello, how are you?  ");//⇒ "hello, how are you?"
 > 获取 `url` 参数的值。
 
 ```js
-//[URL] = http://blog.pc175.com/?param=2
+//[URL] = http://blog.zanjs.com/?param=2
 $.getUrlParam("param") //⇒ 2
 ```
 
